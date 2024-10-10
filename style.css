@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(207, 255, 77);
+}
+.main {
+    text-align: center;
+    margin: auto;
+    border: 3px solid black;
+    padding: 20px;
+    max-width: 470px;
+    border-radius: 10px;
+    background-color: #159;
+}
+.main2 {
+    margin: 20px;
+}
+
+.choice button {
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.choice button:hover {
+    background-color: cornsilk;
+}
+
+.input {
+    margin: 10px;
+}
+
+.input input {
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    width: 420px;
+    background-color: rgb(37, 36, 36);
+    border: 2px solid whitesmoke;
+}
+
+.input:hover {
+    background-color: cornsilk;
+    
+}
+
+@media only screen and (max-width : 400px) {
+    .input input {
+        padding: 15px;
+        font-size: 20px;
+        width:  250px;;
+    }
+
+    .choice button {
+        margin: 3px;
+        width: 60px;
+        font-size:20px ;
+    }
+    .main{
+        margin: 20px;
+    }
+    .main2 {
+        margin: 0px;
+    }
+    .heading img {
+        height: 150px !important;
+        width: 100px; 
+        margin: 5px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+            
+}
+
+.heading {
+    text-align: center;
+    margin: 30px;
+}
+.heading h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading img {
+    height: 200px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid black;
+
+}
+.heading img:hover { 
+    height: 220px;
+    width: 200px;
+    transition: 1s;
+}
+.heading button {
+    padding: 16px;
+    width: 200px;
+    margin-top: 30px;
+    font-size: 25px;
+background-color: khaki;
+border-radius: 10px;
+}
+.heading button:hover {
+background-color: rgb(204, 184, 4);
+}
